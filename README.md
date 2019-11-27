@@ -1,4 +1,4 @@
-# Alexa-gadget-with-BM78
+# Alexa-gadget-with-BM78-using-SPP
 This is an Alexa Gadget demo using MICROCHIP BM78+SAMD21 EVB.
 
 Alexa gadget required feature is implemented in BM78.
