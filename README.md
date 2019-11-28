@@ -16,6 +16,7 @@ SAMD21 EVB: https://www.microchip.com/DevelopmentTools/ProductDetails/ATSAMD21-X
 
 #UKNOWN ISSUES
 1. Alexa can't find the gadget after pairing with Echo speaker
+
    [fix]: Power up Echo speaker first and check if it's online or not.
           If Echo speacker is online, power up the gadget later. If everthing goes well the LED on BM78 EVB is blinking and LED0 on SAMD21  EVB is blinking fast.If BM78 LED doesn't in connected blinking mode, press RESET button on the BM78 EVB to force BM78 to conduct a link back to the paired Echo speaker. If the LED0 on SAMD21 is blinking fast, also press RESET button on the BM78 EVB.
 
@@ -23,4 +24,5 @@ SAMD21 EVB: https://www.microchip.com/DevelopmentTools/ProductDetails/ATSAMD21-X
              SAMD21 LED0 blinking fast indicates SAMD21 has received the 'Discover' instructive sent from Echo speaker and replied with 'Discover.Response' event back to Echo speaker.
 
 2. Alexa skill received only once event reported by alexa gadget
+
    [fix]: to be provided.
