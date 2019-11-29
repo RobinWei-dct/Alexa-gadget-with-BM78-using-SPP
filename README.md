@@ -14,7 +14,7 @@ SAMD21 EVB: https://www.microchip.com/DevelopmentTools/ProductDetails/ATSAMD21-X
 3. User can speak 'light on/off/blink' to echo speaker to control the LED0 on SAMD21 EVB.
 4. User can press the SW0 button to send an event to Alexa Skill during the active session.
 
-#UKNOWN ISSUES
+# KNOWN ISSUES
 1. Alexa can't find the gadget after Echo speaker pairing with the gadget
 
    [fix]: Power up Echo speaker first and check if it's online or not.
@@ -27,7 +27,7 @@ SAMD21 EVB: https://www.microchip.com/DevelopmentTools/ProductDetails/ATSAMD21-X
 
    [fix]: to be provided.
    
-#References
+# References
 1. Alexa gadget design guide
    https://developer.amazon.com/docs/alexa-gadgets-toolkit/understand-alexa-gadgets-toolkit.html
    
