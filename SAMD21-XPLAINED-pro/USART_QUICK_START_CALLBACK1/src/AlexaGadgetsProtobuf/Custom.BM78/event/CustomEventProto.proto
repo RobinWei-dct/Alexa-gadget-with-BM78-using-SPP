@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "eventHeader.proto";
+
+message CustomEventProto {
+    Event event = 1;
+    message Event {
+        header.EventHeaderProto header = 1;
+        string payload = 2;
+    }
+}
