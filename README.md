@@ -29,7 +29,9 @@ SAMD21 EVB: https://www.microchip.com/DevelopmentTools/ProductDetails/ATSAMD21-X
    
 # References
 1. Alexa gadget design guide
+
    https://developer.amazon.com/docs/alexa-gadgets-toolkit/understand-alexa-gadgets-toolkit.html
    
 2. Some JS code refers to 
+
    https://github.com/alexa/Alexa-Gadgets-Raspberry-Pi-Samples/tree/master/src/examples/colorcycler/skill/NodeJS/lambda/custom
