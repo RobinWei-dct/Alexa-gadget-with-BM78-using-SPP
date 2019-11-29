@@ -1,0 +1,74 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "dodo gadget",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "lightIntent",
+                    "slots": [
+                        {
+                            "name": "id",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "state",
+                            "type": "LIGHTSTATE"
+                        }
+                    ],
+                    "samples": [
+                        "light {id} {state}",
+                        "light {state}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIGHTSTATE",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "blink"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "brighter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "darker"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "off"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "on"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
