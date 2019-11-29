@@ -1,4 +1,4 @@
-This lambd is implemented with JS. 
+This lambd function is implemented with JS. 
 
 1. It handles intents to sending instructives to Alexa gadget
 
